@@ -1,0 +1,108 @@
+AUTO_USATE
+
+id                                   INT, PRIMARY_KEY (=>AUTO_INCREMENT, NOT_NULL, UNIQUE, INDEX)
+marca                                VARCHAR(25), NOT_NULL
+modello                              VARCHAR(25), NOT_NULL, INDEX
+versione                             VARCHAR(10), NOT_NULL
+carrozzeria                          VARCHAR(20), NOT_NULL                          
+potenza                              VARCHAR(10), NOT_NULL
+cambio                               VARCHAR(10), NOT_NULL 
+carburante                           VARCHAR(20), NOT_NULL
+consumo                              VARCHAR(20), NULL
+classe_emissioni                     VARCHAR(20), NOT_NULL
+chilometraggio                       MEDIUMINT, NOT_NULL
+anno                                 YEAR, NOT_NULL
+prezzo                               INT, NOT_NULL
+paese_immatricolazione               CHAR(3), NOT_NULL, DEFAULT(‘ITA’)
+numero_porte                         TINYINT, NULL
+equipaggiamento                      VARCHAR(255), NULL
+numero_posti                         TINYINT, NULL
+descrizione_condizioni_generali      VARCHAR(255), NOT_NULL
+descrizione_interni                  TEXT, NULL
+descrizione_esterno                  TEXT, NULL
+venditore                            VARCHAR(20), NOT_NULL
+garanzie                             VARCHAR(100), NULL
+precedenti_proprietari               TINYINT, NULL, DEFAULT(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               
